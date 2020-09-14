@@ -22,7 +22,7 @@ family_members.remove('Carmen')
 team = 'LA Lakers'
 team.center(3)
 team.count('a')
-print(team.ljust(2))
+#Sprint(team.ljust(2))
 
 #print(family_members)
 
@@ -38,4 +38,42 @@ numbers = (100, 1.00, 1000, 0.23)
 
 #Sets
 my_set = {76,"Luis", False, "Last Dance"}
-print(len(my_set))
+your_set = {89, 'Jose', 'John', True}
+#print(my_set.union(your_set))
+#print(my_set.intersection(your_set))
+#print(my_set.difference(your_set))
+my_set.add(False)
+my_set.pop()
+my_set.clear()
+
+
+
+#Dictionaries
+
+capitals = {"Iowa":'DesMoine', 'Wiscosin':'Madison'}
+capitals['Utah'] = 'SaltLakeCity'
+#print(capitals['Iowa'])
+#print(capitals.keys())
+#print(capitals.values())
+#print(capitals.items())
+
+
+#string formatting 
+
+#name = input('Please enter your name: ')
+#print('%s is a great person. '%(name))
+
+
+
+#object oriented design
+
+class Fraction:
+    def __init__(self,top,bottom):
+        self.num = top
+        self.den = bottom
+
+    def show(self):
+        print(self.num, '/', self.den)
+
+myf = Fraction(3,5)
+print(myf.show())
