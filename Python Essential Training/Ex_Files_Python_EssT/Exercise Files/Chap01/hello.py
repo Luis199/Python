@@ -4,6 +4,8 @@ from decimal import *
 
 x = 7/2
 y = "Hello World"
+
+
 print(type(x))
 print(type(y))
 
