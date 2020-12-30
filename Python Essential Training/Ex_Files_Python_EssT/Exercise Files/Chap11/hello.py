@@ -9,4 +9,6 @@ class MyString(str):
 
 
 x = ('Hello, World {}'.upper().format(34*8))
-print(x)
+
+
+print("Hello World")
