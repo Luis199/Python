@@ -2,8 +2,8 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 def main():
-    infile = open('lines.txt', 'rt')
-    outfile = open('lines-copy.txt', 'wt')
+    infile = open('/Users/luiscasado/Desktop/Python/Python Essential Training/Ex_Files_Python_EssT/Exercise Files/Chap12/lines.txt', 'rt')
+    outfile = open('/Users/luiscasado/Desktop/Python/Python Essential Training/Ex_Files_Python_EssT/Exercise Files/Chap12/lines-copy.txt', 'wt')
     for line in infile:
         print(line.rstrip(), file=outfile)
         print('.', end='', flush=True)

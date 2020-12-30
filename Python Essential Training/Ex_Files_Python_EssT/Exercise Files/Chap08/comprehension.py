@@ -3,7 +3,7 @@
 
 def main():
     seq = range(11)
-    seq2 = [x*2 for x in seq]
+    seq2 = [ x*2 for x in seq]
     print(seq2)
     print_list(seq)
 
