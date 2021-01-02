@@ -20,6 +20,15 @@ n2 = Newspaper("The New York Times")
 
 # TODO: use type() to inspect the object type
 
+print(type(b1))
+print(type(n1))
+
+print(isinstance(b1, Book))
+print(isinstance(n1, Newspaper))
+print(isinstance(n2, Book))
+
+
+
 
 # TODO: compare two types together
 
