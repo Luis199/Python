@@ -18,5 +18,9 @@ class C(A, B):
     def __init__(self):
         super().__init__()
 
+    def printclass(self):
+        print(self.foo)
+        print(self.bar)
 
 c = C()
+c.printclass()
